@@ -1,0 +1,2682 @@
+[
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [
+                    1,
+                    3
+                ],
+                [
+                    2,
+                    4
+                ],
+                [
+                    3,
+                    5
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    6,
+                    8
+                ],
+                [
+                    7,
+                    9
+                ],
+                [
+                    8,
+                    10
+                ],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "acting",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 0,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 10.778880708334327,
+                "event": "show graph"
+            },
+            {
+                "time": 26.94324620833504,
+                "event": "visit",
+                "state": 0
+            },
+            {
+                "time": 87.9428187500016,
+                "event": "begin space"
+            },
+            {
+                "time": 105.35622924999916,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 105.3563037916756,
+                "event": "show graph"
+            },
+            {
+                "time": 105.36750795833359,
+                "event": "start",
+                "flip_time": 105.3672662083336
+            },
+            {
+                "time": 105.37886620833888,
+                "event": "get move",
+                "selected": 1
+            },
+            {
+                "time": 107.70114404167543,
+                "event": "switch",
+                "selected": 3
+            },
+            {
+                "time": 108.97223170833604,
+                "event": "select",
+                "selected": 3
+            },
+            {
+                "time": 108.97228816667484,
+                "event": "visit",
+                "state": 3
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [],
+            "rewards": [
+                1,
+                2,
+                3,
+                4,
+                -1,
+                -2,
+                -3,
+                -4,
+                0,
+                0,
+                0
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "acting",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 0,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 108.9757227916707,
+                "event": "show graph"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    10,
+                    2
+                ],
+                [],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                2,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                4
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 6,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 199.75646654167213,
+                "event": "begin space"
+            },
+            {
+                "time": 200.38808837500255,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 200.38815270833584,
+                "event": "show graph"
+            },
+            {
+                "time": 200.45963499999925,
+                "event": "visit",
+                "state": 6
+            },
+            {
+                "time": 200.4633899166729,
+                "event": "start",
+                "flip_time": 200.46334816667513
+            },
+            {
+                "time": 200.46828883333365,
+                "event": "get move",
+                "selected": 2
+            },
+            {
+                "time": 204.84444504167186,
+                "event": "select",
+                "selected": 2
+            },
+            {
+                "time": 204.8444873749977,
+                "event": "visit",
+                "state": 2
+            },
+            {
+                "time": 206.72891041667026,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    7,
+                    1
+                ],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                4,
+                null,
+                null,
+                null,
+                null,
+                null,
+                0,
+                null,
+                null,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 8,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 206.7336765416767,
+                "event": "begin space"
+            },
+            {
+                "time": 208.45249987499847,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 208.4525627500043,
+                "event": "show graph"
+            },
+            {
+                "time": 208.52402579167392,
+                "event": "visit",
+                "state": 8
+            },
+            {
+                "time": 208.52989041667024,
+                "event": "start",
+                "flip_time": 208.5298464166699
+            },
+            {
+                "time": 208.534546041672,
+                "event": "get move",
+                "selected": 1
+            },
+            {
+                "time": 240.30964537500404,
+                "event": "switch",
+                "selected": 7
+            },
+            {
+                "time": 242.4603182083374,
+                "event": "select",
+                "selected": 7
+            },
+            {
+                "time": 242.46037908333528,
+                "event": "visit",
+                "state": 7
+            },
+            {
+                "time": 244.33173641667236,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    2,
+                    6
+                ],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                3,
+                null,
+                null,
+                null,
+                -1,
+                null,
+                null,
+                null,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 8,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 244.34453550000035,
+                "event": "begin space"
+            },
+            {
+                "time": 247.68465891667438,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 247.68471262499952,
+                "event": "show graph"
+            },
+            {
+                "time": 247.7553021249987,
+                "event": "visit",
+                "state": 8
+            },
+            {
+                "time": 247.762170541675,
+                "event": "start",
+                "flip_time": 247.76211712499935
+            },
+            {
+                "time": 247.7668402499985,
+                "event": "get move",
+                "selected": 2
+            },
+            {
+                "time": 255.86938962500426,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 256.3488453750033,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 256.6526274583375,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 256.8124085416712,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 256.96463670834055,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 257.1008642916713,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 258.12509641667566,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 258.2925882916752,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 258.4363939583345,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 258.8606760000039,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 260.4371517916734,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 260.61276437500055,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 260.75666495833866,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 260.9164195833364,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 263.5010961666703,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 263.6685986250013,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 264.3081852500036,
+                "event": "select",
+                "selected": 2
+            },
+            {
+                "time": 264.3082268750004,
+                "event": "visit",
+                "state": 2
+            },
+            {
+                "time": 266.1646471666754,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [
+                    10,
+                    3
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                null,
+                -1,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                -4
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 0,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 266.1787989166696,
+                "event": "begin space"
+            },
+            {
+                "time": 267.34865037500276,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 267.3487132083392,
+                "event": "show graph"
+            },
+            {
+                "time": 267.41765433333785,
+                "event": "visit",
+                "state": 0
+            },
+            {
+                "time": 267.42353645833646,
+                "event": "start",
+                "flip_time": 267.4234880833392
+            },
+            {
+                "time": 267.42869183333823,
+                "event": "get move",
+                "selected": 3
+            },
+            {
+                "time": 269.69355645834,
+                "event": "switch",
+                "selected": 10
+            },
+            {
+                "time": 272.0770596250004,
+                "event": "switch",
+                "selected": 3
+            },
+            {
+                "time": 274.04428816667496,
+                "event": "select",
+                "selected": 3
+            },
+            {
+                "time": 274.04433041667653,
+                "event": "visit",
+                "state": 3
+            },
+            {
+                "time": 275.92860566667514,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [
+                    8,
+                    10
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                -1,
+                null,
+                4
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 2,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 275.93867737500113,
+                "event": "begin space"
+            },
+            {
+                "time": 276.71653858333593,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 276.7165873749982,
+                "event": "show graph"
+            },
+            {
+                "time": 276.78658120834007,
+                "event": "visit",
+                "state": 2
+            },
+            {
+                "time": 276.7903499583408,
+                "event": "start",
+                "flip_time": 276.7903146250028
+            },
+            {
+                "time": 276.7937893749986,
+                "event": "get move",
+                "selected": 8
+            },
+            {
+                "time": 278.30929741667205,
+                "event": "switch",
+                "selected": 10
+            },
+            {
+                "time": 279.52422687500075,
+                "event": "select",
+                "selected": 10
+            },
+            {
+                "time": 279.5242693750042,
+                "event": "visit",
+                "state": 10
+            },
+            {
+                "time": 281.39535204167623,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [
+                    9,
+                    3
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                null,
+                0,
+                null,
+                null,
+                null,
+                null,
+                null,
+                1,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 2,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 281.4045860000042,
+                "event": "begin space"
+            },
+            {
+                "time": 281.9085756249988,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 281.9086249166721,
+                "event": "show graph"
+            },
+            {
+                "time": 281.97771425000246,
+                "event": "visit",
+                "state": 2
+            },
+            {
+                "time": 281.981596541671,
+                "event": "start",
+                "flip_time": 281.9815632916725
+            },
+            {
+                "time": 281.9847829166756,
+                "event": "get move",
+                "selected": 3
+            },
+            {
+                "time": 283.6932244999989,
+                "event": "switch",
+                "selected": 9
+            },
+            {
+                "time": 286.0123645416752,
+                "event": "select",
+                "selected": 9
+            },
+            {
+                "time": 286.01241104167275,
+                "event": "visit",
+                "state": 9
+            },
+            {
+                "time": 287.89380079167313,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [
+                    3,
+                    0
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                2,
+                null,
+                null,
+                -1,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 1,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 287.9033877500042,
+                "event": "begin space"
+            },
+            {
+                "time": 288.34862329167663,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 288.34867237500293,
+                "event": "show graph"
+            },
+            {
+                "time": 288.41799933333823,
+                "event": "visit",
+                "state": 1
+            },
+            {
+                "time": 288.42180916666985,
+                "event": "start",
+                "flip_time": 288.4217583749996
+            },
+            {
+                "time": 288.42710287500086,
+                "event": "get move",
+                "selected": 0
+            },
+            {
+                "time": 291.48529970833624,
+                "event": "switch",
+                "selected": 3
+            },
+            {
+                "time": 291.7728293750042,
+                "event": "switch",
+                "selected": 0
+            },
+            {
+                "time": 297.0691565833404,
+                "event": "switch",
+                "selected": 3
+            },
+            {
+                "time": 297.25278945834,
+                "event": "switch",
+                "selected": 0
+            },
+            {
+                "time": 307.90837812500104,
+                "event": "select",
+                "selected": 0
+            },
+            {
+                "time": 307.90842158333544,
+                "event": "visit",
+                "state": 0
+            },
+            {
+                "time": 309.79539533333445,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    4,
+                    2
+                ]
+            ],
+            "rewards": [
+                null,
+                null,
+                2,
+                null,
+                -3,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 10,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 309.804859625001,
+                "event": "begin space"
+            },
+            {
+                "time": 313.97260433333577,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 313.9726543750003,
+                "event": "show graph"
+            },
+            {
+                "time": 314.0420960833362,
+                "event": "visit",
+                "state": 10
+            },
+            {
+                "time": 314.0489310416742,
+                "event": "start",
+                "flip_time": 314.04889016667585
+            },
+            {
+                "time": 314.05352962500183,
+                "event": "get move",
+                "selected": 4
+            },
+            {
+                "time": 323.57347945834044,
+                "event": "switch",
+                "selected": 2
+            },
+            {
+                "time": 325.3804153750025,
+                "event": "select",
+                "selected": 2
+            },
+            {
+                "time": 325.3804602083401,
+                "event": "visit",
+                "state": 2
+            },
+            {
+                "time": 327.2144344166736,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    4,
+                    10
+                ],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                null,
+                null,
+                null,
+                1,
+                null,
+                null,
+                null,
+                null,
+                null,
+                0
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 8,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 327.2287776250014,
+                "event": "begin space"
+            },
+            {
+                "time": 327.9165531666731,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 327.9166085833349,
+                "event": "show graph"
+            },
+            {
+                "time": 327.98573775000114,
+                "event": "visit",
+                "state": 8
+            },
+            {
+                "time": 327.9895304166712,
+                "event": "start",
+                "flip_time": 327.9894885833346
+            },
+            {
+                "time": 327.9942132916767,
+                "event": "get move",
+                "selected": 10
+            },
+            {
+                "time": 332.4852918750039,
+                "event": "switch",
+                "selected": 4
+            },
+            {
+                "time": 333.4202280000027,
+                "event": "select",
+                "selected": 4
+            },
+            {
+                "time": 333.4202703333358,
+                "event": "visit",
+                "state": 4
+            },
+            {
+                "time": 335.2785502500046,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                    1,
+                    4
+                ],
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "rewards": [
+                null,
+                1,
+                null,
+                null,
+                -3,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 5,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 335.28772429167293,
+                "event": "begin space"
+            },
+            {
+                "time": 336.3086787499997,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 336.3087275833386,
+                "event": "show graph"
+            },
+            {
+                "time": 336.37746662500285,
+                "event": "visit",
+                "state": 5
+            },
+            {
+                "time": 336.38118866667355,
+                "event": "start",
+                "flip_time": 336.3811534583365
+            },
+            {
+                "time": 336.38460816667066,
+                "event": "get move",
+                "selected": 1
+            },
+            {
+                "time": 337.4852343750026,
+                "event": "switch",
+                "selected": 4
+            },
+            {
+                "time": 338.42894725000224,
+                "event": "switch",
+                "selected": 1
+            },
+            {
+                "time": 343.8531967500021,
+                "event": "switch",
+                "selected": 4
+            },
+            {
+                "time": 344.2370445833367,
+                "event": "switch",
+                "selected": 1
+            },
+            {
+                "time": 345.20427875000314,
+                "event": "select",
+                "selected": 1
+            },
+            {
+                "time": 345.20432316667575,
+                "event": "visit",
+                "state": 1
+            },
+            {
+                "time": 347.0619641666708,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [],
+                [],
+                [
+                    9,
+                    4
+                ],
+                [
+                    8,
+                    6
+                ],
+                [],
+                [],
+                [
+                    10,
+                    7
+                ],
+                [],
+                [
+                    5,
+                    1
+                ],
+                [
+                    4,
+                    0
+                ],
+                []
+            ],
+            "rewards": [
+                -2,
+                -1,
+                3,
+                null,
+                -2,
+                4,
+                -4,
+                -1,
+                1,
+                3,
+                3
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 3,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 357.08688775000337,
+                "event": "begin space"
+            },
+            {
+                "time": 367.1806271250025,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 367.18068137500086,
+                "event": "show graph"
+            },
+            {
+                "time": 367.3943565416703,
+                "event": "visit",
+                "state": 3
+            },
+            {
+                "time": 367.4033038333364,
+                "event": "start",
+                "flip_time": 367.4030495416737
+            },
+            {
+                "time": 367.4103609583399,
+                "event": "get move",
+                "selected": 8
+            },
+            {
+                "time": 368.34953241667245,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 368.93306212500465,
+                "event": "switch",
+                "selected": 8
+            },
+            {
+                "time": 369.292842750001,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 369.5168432499995,
+                "event": "switch",
+                "selected": 8
+            },
+            {
+                "time": 369.7006432499984,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 373.4038964166757,
+                "event": "switch",
+                "selected": 8
+            },
+            {
+                "time": 373.87754691667215,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 375.13343670834,
+                "event": "switch",
+                "selected": 8
+            },
+            {
+                "time": 390.90139816667215,
+                "event": "switch",
+                "selected": 6
+            },
+            {
+                "time": 391.3331707916732,
+                "event": "switch",
+                "selected": 8
+            },
+            {
+                "time": 392.0843325833339,
+                "event": "select",
+                "selected": 8
+            },
+            {
+                "time": 392.08439187500335,
+                "event": "visit",
+                "state": 8
+            },
+            {
+                "time": 392.09459212500224,
+                "event": "get move",
+                "selected": 1
+            },
+            {
+                "time": 393.01303695833485,
+                "event": "switch",
+                "selected": 5
+            },
+            {
+                "time": 393.3888356666721,
+                "event": "switch",
+                "selected": 1
+            },
+            {
+                "time": 393.8128259583391,
+                "event": "switch",
+                "selected": 5
+            },
+            {
+                "time": 394.3960187916746,
+                "event": "select",
+                "selected": 5
+            },
+            {
+                "time": 394.3960560833366,
+                "event": "visit",
+                "state": 5
+            },
+            {
+                "time": 396.2475876666722,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    },
+    {
+        "trial": {
+            "kind": "GraphTrial",
+            "graph": [
+                [
+                    4,
+                    9
+                ],
+                [],
+                [
+                    1,
+                    8
+                ],
+                [],
+                [
+                    7,
+                    6
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                    3,
+                    5
+                ],
+                [
+                    2,
+                    1
+                ]
+            ],
+            "rewards": [
+                null,
+                -3,
+                -3,
+                1,
+                3,
+                3,
+                3,
+                4,
+                3,
+                1,
+                -3
+            ],
+            "reward_info": {
+                "-4": {
+                    "desc": "pattern_1",
+                    "image": "images[0]"
+                },
+                "-3": {
+                    "desc": "pattern_2",
+                    "image": "images[1]"
+                },
+                "-2": {
+                    "desc": "pattern_3",
+                    "image": "images[2]"
+                },
+                "-1": {
+                    "desc": "pattern_4",
+                    "image": "images[3]"
+                },
+                "0": {
+                    "desc": "pattern_5",
+                    "image": "images[4]"
+                },
+                "1": {
+                    "desc": "pattern_6",
+                    "image": "images[5]"
+                },
+                "2": {
+                    "desc": "pattern_7",
+                    "image": "images[6]"
+                },
+                "3": {
+                    "desc": "pattern_8",
+                    "image": "images[7]"
+                },
+                "4": {
+                    "desc": "pattern_9",
+                    "image": "images[8]"
+                }
+            },
+            "initial_stage": "planning",
+            "hide_states": false,
+            "hide_rewards_while_acting": false,
+            "hide_edges_while_acting": false,
+            "gaze_contingent": false,
+            "gaze_tolerance": 1.5,
+            "fixation_lag": 0.5,
+            "start": 0,
+            "node_positions": [
+                [
+                    960.0,
+                    162.0
+                ],
+                [
+                    755.6377710017841,
+                    222.00616458981358
+                ],
+                [
+                    616.159105755992,
+                    382.97312508528694
+                ],
+                [
+                    585.8474949690074,
+                    593.7950088673017
+                ],
+                [
+                    674.3266608940903,
+                    787.5373574313177
+                ],
+                [
+                    853.5050935139395,
+                    902.68834402628
+                ],
+                [
+                    1066.4949064860602,
+                    902.68834402628
+                ],
+                [
+                    1245.6733391059095,
+                    787.537357431318
+                ],
+                [
+                    1334.1525050309926,
+                    593.7950088673018
+                ],
+                [
+                    1303.840894244008,
+                    382.97312508528705
+                ],
+                [
+                    1164.3622289982159,
+                    222.00616458981352
+                ]
+            ]
+        },
+        "events": [
+            {
+                "time": 396.2616273750027,
+                "event": "begin space"
+            },
+            {
+                "time": 397.01266549999855,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 397.0127198333357,
+                "event": "show graph"
+            },
+            {
+                "time": 397.2293759583408,
+                "event": "visit",
+                "state": 0
+            },
+            {
+                "time": 397.23542887499934,
+                "event": "start",
+                "flip_time": 397.23534641667356
+            },
+            {
+                "time": 397.24111866667226,
+                "event": "get move",
+                "selected": 4
+            },
+            {
+                "time": 398.67744679167663,
+                "event": "switch",
+                "selected": 9
+            },
+            {
+                "time": 399.17298333333747,
+                "event": "switch",
+                "selected": 4
+            },
+            {
+                "time": 400.68513125000027,
+                "event": "switch",
+                "selected": 9
+            },
+            {
+                "time": 400.9087235416737,
+                "event": "switch",
+                "selected": 4
+            },
+            {
+                "time": 401.48424412500026,
+                "event": "select",
+                "selected": 4
+            },
+            {
+                "time": 401.4842836250027,
+                "event": "visit",
+                "state": 4
+            },
+            {
+                "time": 401.4942675416751,
+                "event": "get move",
+                "selected": 6
+            },
+            {
+                "time": 402.16511320833524,
+                "event": "switch",
+                "selected": 7
+            },
+            {
+                "time": 403.02830687499954,
+                "event": "select",
+                "selected": 7
+            },
+            {
+                "time": 403.0283567916704,
+                "event": "visit",
+                "state": 7
+            },
+            {
+                "time": 404.9448130000019,
+                "event": "done"
+            }
+        ],
+        "flips": [],
+        "mouse": []
+    }
+]
